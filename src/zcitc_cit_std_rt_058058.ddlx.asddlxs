@@ -1,0 +1,223 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'StudID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'StudID'
+annotate view ZCITC_CIT_STD_RT_058058 with
+{
+  @EndUserText.label: 'StudID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'StudID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'StudID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  StudID;
+  
+  @EndUserText.label: 'StudName'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'StudName'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'StudName'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  StudName;
+  
+  @EndUserText.label: 'StudDept'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'StudDept'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'StudDept'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  StudDept;
+  
+  @EndUserText.label: 'StudCourse'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'StudCourse'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'StudCourse'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  StudCourse;
+  
+  @EndUserText.label: 'StudPhNo'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'StudPhNo'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'StudPhNo'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  StudPhNo;
+  
+  @EndUserText.label: 'StudEmail'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'StudEmail'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'StudEmail'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  StudEmail;
+  
+  @EndUserText.label: 'StudAddress'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'StudAddress'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'StudAddress'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  StudAddress;
+  
+  @EndUserText.label: 'StudDOB'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'StudDOB'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'StudDOB'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  StudDOB;
+  
+  @EndUserText.label: 'JoininigYear'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'JoininigYear'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'JoininigYear'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  JoininigYear;
+  
+  @EndUserText.label: 'PaymentStatus'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'PaymentStatus'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'PaymentStatus'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  PaymentStatus;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalLastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 160 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 160 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  _BaseEntity;
+}
